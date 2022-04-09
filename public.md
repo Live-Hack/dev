@@ -1,5 +1,5 @@
-# Public
+# Public 🎉
 All the public api wihout oauth
 
-## **[USER]**
+## **User**
 - [Get user infos](/public/get-user-infos.md)

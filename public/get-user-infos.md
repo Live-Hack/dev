@@ -3,18 +3,21 @@
 This request allows to retrieve the public data of a user with his nickname.
 
 ## Use
+Method: [!badge variant="primary" text="GET"]
 ```
-GET www.live-hack.org/pub/v1/user/${username}
+https://www.live-hack.org/pub/v1/user/${username}
 ```
 
 ## Exemple
+[Click to open](https://www.live-hack.org/pub/v1/user/alice)
 ```
-GET www.live-hack.org/pub/v1/user/alice
+https://www.live-hack.org/pub/v1/user/alice
 ```
+
 
 ## Response
 
-=== [!badge variant="Success" text="Success"]
+==- [!badge variant="Success" text="Success"]
 ```json
 {
     "username": "alice",
@@ -26,14 +29,14 @@ GET www.live-hack.org/pub/v1/user/alice
     "website": "https://live-hack.org/"
 }
 ```
-=== [!badge variant="Danger" text="Error"]
+==- [!badge variant="Danger" text="Error"]
 If the response only contains the username, the user does not exist !
 ```json
 {
     "username": "alice"
 }
 ```
-===
+==-
 
 
 
