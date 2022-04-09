@@ -1,1 +1,1 @@
-[[{"l":"Alice Doc","p":["non clairement tu n'es pas prêt"]}]]
+[[{"l":"Alice Doc","p":["non clairement tu n'es pas prêt"]}],[{"l":"Public","p":["All the public api wihout oauth"]},{"i":"user","l":"[USER]","p":["Get user infos"]}],[{"l":"Get user infos","p":["This request allows to retrieve the public data of a user with his nickname."]},{"l":"Use"},{"l":"Exemple"},{"l":"Response","p":["If the response only contains the username, the user does not exist !"]}],[{"l":"Oauth","p":["All the private Live Hack API (0 for the moment)"]}]]
